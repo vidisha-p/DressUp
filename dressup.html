@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="action.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+
+  <title>Document</title>
+</head>
+<body>
+  <div class="airdrop-popup" id="airdrop">
+    <h2>AirDrop</h2>
+    <p>Vidisha would like for you to dress up Chiri for the day</p>
+    <img src="images/chiriimg.png" alt="Chiri" class="chiri-image" id="chiri"> 
+    <div class="button-container">
+      <button class="button decline" onclick="declineAction()">Decline</button>
+      <button class="button accept" onclick="acceptAction()">Accept</button>
+  </div>
+
+  </div>
+  
+
+  <div class="selection-container">
+    <div class="selection-box" id="hairBox">🎀</div>
+    <div class="selection-box" id="outfitBox">👗</div>
+    <div class="selection-box" id="petBox">🐾</div>
+    <div class="selection-box" id="bgBox">🌆</div>
+</div>
+
+<!-- <div class="navigation">
+  <button class="left-arrow" onclick="changePart(-1)"><</button>
+  <button class="right-arrow" onclick="changePart(1)">></button>
+</div> -->
+<div id="chiriContainer">
+  <img id="chiri-second" src="images/chiriimg.png" alt="Chiri" class="chiri-image2">
+
+  <img id="chiri-outfit" class="chiri-layer2" src="">
+
+  <img id="chiri-head" class="chiri-layer" src="">
+
+  <img id="chiri-pet" class="chiri-layerpet" src="">
+  <img id="chiri-bg" class="chiri-layerbg" src="">
+
+  <div class="navigation">
+    <button class="left-arrow" onclick="changePart(-1)"><</button>
+    <button class="right-arrow" onclick="changePart(1)">></button>
+  </div>
+</div>
+
+</body>
+</html>
